@@ -1,3 +1,8 @@
+//Alerta de Boas-vindas
+window.onload = function() {
+    alert("Seja bem-vindo!");
+}
+
 //Função que muda a cor do site
 var cores = ['slategray', 'white', 'olivedrab'];
 var corAtual = 0;
