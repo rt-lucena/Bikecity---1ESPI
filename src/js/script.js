@@ -1,6 +1,8 @@
-//Alerta de Boas-vindas
+//Alerta de Boas-vindas (index.html)
 window.onload = function() {
-    alert("Seja bem-vindo!");
+    if (window.location.pathname == "/" || window.location.pathname == "/index.html") {
+        alert("Seja bem-vindo!");
+    }
 }
 
 //Função que muda a cor do site
