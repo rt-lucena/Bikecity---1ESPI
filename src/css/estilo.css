@@ -1,12 +1,22 @@
+:root {
+    --main-color: black;
+    --main-font-size: 35px;
+    --main-padding: 20px;
+    --main-margin: 20px;
+    --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
 header {
-    padding: 20px;
+    padding: var(--main-padding);
     text-align: center;
-    font-size: 35px;
-    color: black;
+    font-size: var(--main-font-size);
+    color: var(--main-color);
 }
 
 body {
     transition: background-color 1s;
+    margin: 0;
+    padding: 0;
 }
 
 #banner {
@@ -15,26 +25,26 @@ body {
     align-items: center;
     height: 500px;
     width: 500px;
-    margin: 20px auto;
+    margin: var(--main-margin) auto;
 }
 
 #imgBanner {
     max-width: 100%;
     max-height: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: var(--box-shadow);
     transition: all 1s ease-in-out;
 }
 
-.textos{
-    border: 2px solid black;
-    margin: 10px;
-    padding: 20px;
+.descrição {
+    border: 2px solid var(--main-color);
+    margin: var(--main-margin);
+    padding: var(--main-padding);
     text-align: justify;
 }
 
 .card {
-    margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: var(--main-margin);
+    box-shadow: var(--box-shadow);
     transition: 0.3s;
     width: 40%;
     border-radius: 5px;
@@ -47,5 +57,6 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
-    padding: 2px 16px;
+    padding: var(--main-padding);
+    margin: var(--main-margin);
 }
