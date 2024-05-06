@@ -27,6 +27,7 @@ Este projeto foi possível graças ao esforço conjunto dos seguintes colaborado
 
 - **Rafael Teofilo Lucena**: RM 5556000
 - **Lucas Feliciano**: RM 557261
+- **Pablo Henrique Almeida Viera**: RM 558997
 
 ## Tecnologias Usadas
 
