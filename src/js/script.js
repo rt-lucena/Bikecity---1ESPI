@@ -72,3 +72,43 @@ function teste_log(){
         alert("Campos não preenchindos")
     }
 }
+
+//Quiz
+function startQuiz() {
+    var score = 0;
+
+    var questions = [
+    "Qual é a maior marca de bicicletas do mundo?",
+    "Qual é a cor mais comum para uma bicicleta?",
+    "Qual é o recorde mundial de velocidade em uma bicicleta?",
+    "Qual é o nome da bicicleta usada em corridas de estrada?",
+    "Qual é o nome da bicicleta usada em trilhas de montanha?",
+    "Qual é o nome da bicicleta com uma roda grande na frente e uma pequena atrás?",
+    "Qual é o nome da competição de ciclismo mais famosa do mundo?",
+    "Qual é o material mais comum usado para fazer quadros de bicicleta?",
+    "Qual é o nome da bicicleta que permite que duas pessoas pedalem juntas?",
+    "Qual é o nome do dispositivo que muda as marchas em uma bicicleta?"
+];
+
+    var answers = [
+    "Giant",
+    "Preto",
+    "133.78 km/h",
+    "Bicicleta de corrida",
+    "Mountain bike",
+    "Penny-farthing",
+    "Tour de France",
+    "Alumínio",
+    "Tandem",
+    "Desviador"
+    ];
+
+    for (var i = 0; i < questions.length; i++) {
+        var response = prompt(questions[i]);
+        if (response == answers[i]) {
+            score++;
+        }
+    }
+
+    alert("Você acertou " + score + " de " + questions.length + " perguntas!");
+}

@@ -39,7 +39,7 @@ body {
     border: 2px solid var(--main-color);
     margin: var(--main-margin);
     padding: var(--main-padding);
-    text-align: justify;
+    text-align: center;
 }
 
 #bloco_contato {
