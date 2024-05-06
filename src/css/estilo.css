@@ -9,9 +9,16 @@
 header {
     padding: var(--main-padding);
     text-align: center;
-    font-size: var(--main-font-size);
+    font-size: 24px;
     color: var(--main-color);
 }
+
+header a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
 
 body {
     transition: background-color 1s;
@@ -29,6 +36,8 @@ body {
 }
 
 #imgBanner {
+    border: 3px solid var(--main-color);
+    border-radius: 10px;
     max-width: 100%;
     max-height: auto;
     box-shadow: var(--box-shadow);
@@ -36,13 +45,17 @@ body {
 }
 
 .texto {
-    border: 2px solid var(--main-color);
+    border: 3px solid var(--main-color);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
     margin: var(--main-margin);
     padding: var(--main-padding);
     text-align: center;
 }
 
 #bloco_contato {
+    border: 3px solid var(--main-color);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,6 +68,20 @@ body {
 
 #enviar {
     margin-top: 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+#enviar:hover {
+    background-color: #ff4500;
 }
 
 #bloco_login{
@@ -65,14 +92,17 @@ body {
 }
 .card {
     margin: var(--main-margin);
+    padding: 20px;
     box-shadow: var(--box-shadow);
+    border: 3px solid var(--main-color);
+    border-radius: 10px;
     transition: 0.3s;
     width: 40%;
     border-radius: 5px;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
 }
 
 .container {
