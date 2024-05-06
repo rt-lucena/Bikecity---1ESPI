@@ -26,6 +26,7 @@ Você pode acessar nosso site em: https://rt-lucena.github.io/Bikecity---1ESPI/
 Este projeto foi possível graças ao esforço conjunto dos seguintes colaboradores:
 
 - **Rafael Teofilo Lucena**: RM 5556000
+- **Lucas Feliciano**: RM 557261
 
 ## Tecnologias Usadas
 
