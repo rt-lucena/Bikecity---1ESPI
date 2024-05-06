@@ -35,11 +35,26 @@ body {
     transition: all 1s ease-in-out;
 }
 
-.descrição {
+.texto {
     border: 2px solid var(--main-color);
     margin: var(--main-margin);
     padding: var(--main-padding);
     text-align: justify;
+}
+
+#bloco_contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 5px;
+    padding: var(--main-padding);
+    margin: auto;
+}
+
+#enviar_contato {
+    margin-top: 20px;
 }
 
 .card {
