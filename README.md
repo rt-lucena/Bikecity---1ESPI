@@ -19,7 +19,7 @@ O site oferece as seguintes funcionalidades:
 
 ## Como Acessar
 
-Você pode acessar nosso site em: []
+Você pode acessar nosso site em: https://rt-lucena.github.io/Bikecity---1ESPI/
 
 ## Colaboradores
 
